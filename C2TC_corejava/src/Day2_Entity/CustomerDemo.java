@@ -13,5 +13,6 @@ public class CustomerDemo {
     Customer c2 = new Customer();
     c2.setCid(101);
     System.out.println(c2);
+    c2.getCname();
 	}
 }

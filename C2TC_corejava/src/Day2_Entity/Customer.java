@@ -1,4 +1,5 @@
 package Day2_Entity;
+
 public class Customer {
 	private int cid;
     private String cname;
