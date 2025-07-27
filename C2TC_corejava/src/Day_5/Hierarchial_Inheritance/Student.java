@@ -1,7 +1,6 @@
 package Day_5.Hierarchial_Inheritance;
 
 public class Student extends Person{
-	{
 		private String clas;
 		private float per;
 		public Student() {
@@ -39,7 +38,5 @@ public class Student extends Person{
 		@Override
 		public String toString() {
 			return "Student [clas=" + clas + ", per=" + per + ", getName()=" + getName() + ", getCity()=" + getCity() + "]";
-		
-		}
 	}
 }

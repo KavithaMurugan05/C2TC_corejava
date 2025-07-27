@@ -16,9 +16,9 @@ public class HierarchialinheritanceDemo {
 		if (p instanceof Employee)
 		System.out.println("Employee Details "+p);
 
-		p = new Student("Pankaj","Pune","FE",88);
+		/*p = new Student("Pankaj","Pune","FE",88);
 		if (p instanceof Student)
-			System.out.println("Student Details "+p);
+			System.out.println("Student Details "+p);*/
 	
 	}
 }
